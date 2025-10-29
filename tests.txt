@@ -1,0 +1,1138 @@
+Temporary test directory at /tmp/test_runner_₿_🏃_20251029_213845
+1/276 - feature_fee_estimation.py passed, Duration: 116 s
+2/276 - mempool_ephemeral_dust.py passed, Duration: 119 s
+3/276 - wallet_conflicts.py passed, Duration: 66 s
+4/276 - feature_taproot.py passed, Duration: 207 s
+5/276 - p2p_node_network_limited.py --v1transport passed, Duration: 30 s
+6/276 - p2p_node_network_limited.py --v2transport passed, Duration: 25 s
+7/276 - p2p_opportunistic_1p1c.py passed, Duration: 115 s
+8/276 - feature_block.py passed, Duration: 245 s
+9/276 - mining_getblocktemplate_longpoll.py passed, Duration: 75 s
+10/276 - feature_maxuploadtarget.py passed, Duration: 80 s
+11/276 - p2p_segwit.py passed, Duration: 93 s
+12/276 - mempool_updatefromblock.py passed, Duration: 54 s
+13/276 - rpc_psbt.py passed, Duration: 48 s
+14/276 - mempool_persist.py passed, Duration: 64 s
+15/276 - wallet_v3_txs.py passed, Duration: 13 s
+16/276 - wallet_fundrawtransaction.py passed, Duration: 58 s
+17/276 - feature_segwit.py --v2transport passed, Duration: 19 s
+18/276 - feature_segwit.py --v1transport passed, Duration: 28 s
+19/276 - wallet_backup.py passed, Duration: 60 s
+20/276 - wallet_bumpfee.py passed, Duration: 98 s
+21/276 - wallet_avoidreuse.py passed, Duration: 27 s
+22/276 - feature_abortnode.py passed, Duration: 16 s
+23/276 - wallet_address_types.py passed, Duration: 27 s
+24/276 - feature_assumeutxo.py passed, Duration: 268 s
+25/276 - feature_maxtipage.py passed, Duration: 46 s
+26/276 - p2p_tx_download.py passed, Duration: 123 s
+27/276 - wallet_multiwallet.py --usecli skipped (bitcoin-cli has not been compiled.)
+28/276 - wallet_basic.py passed, Duration: 95 s
+29/276 - p2p_orphan_handling.py passed, Duration: 128 s
+31/276 - wallet_groups.py passed, Duration: 24 s
+32/276 - feature_assumevalid.py passed, Duration: 16 s
+33/276 - p2p_blockfilters.py passed, Duration: 21 s
+34/276 - p2p_dns_seeds.py passed, Duration: 73 s
+35/276 - rpc_bind.py --ipv4 passed, Duration: 15 s
+36/276 - rpc_packages.py passed, Duration: 25 s
+37/276 - rpc_bind.py --nonloopback passed, Duration: 13 s
+38/276 - rpc_bind.py --ipv6 passed, Duration: 26 s
+39/276 - p2p_feefilter.py passed, Duration: 29 s
+40/276 - p2p_headers_sync_with_minchainwork.py passed, Duration: 48 s
+41/276 - feature_bip68_sequence.py passed, Duration: 94 s
+42/276 - feature_csv_activation.py passed, Duration: 32 s
+43/276 - wallet_taproot.py passed, Duration: 130 s
+44/276 - p2p_sendheaders.py passed, Duration: 36 s
+45/276 - wallet_listtransactions.py passed, Duration: 27 s
+46/276 - p2p_invalid_messages.py passed, Duration: 30 s
+47/276 - rpc_createmultisig.py passed, Duration: 17 s
+48/276 - p2p_timeouts.py --v1transport passed, Duration: 6 s
+49/276 - p2p_timeouts.py --v2transport passed, Duration: 5 s
+50/276 - rpc_signer.py skipped (external signer support has not been compiled.)
+51/276 - wallet_signer.py skipped (external signer support has not been compiled.)
+52/276 - wallet_miniscript.py passed, Duration: 42 s
+53/276 - rpc_orphans.py passed, Duration: 9 s
+54/276 - rpc_txoutproof.py passed, Duration: 10 s
+55/276 - wallet_listreceivedby.py skipped (bitcoin-cli has not been compiled.)
+56/276 - wallet_anchor.py passed, Duration: 10 s
+57/276 - wallet_abandonconflict.py passed, Duration: 37 s
+58/276 - feature_reindex_readonly.py passed, Duration: 24 s
+59/276 - mempool_limit.py passed, Duration: 78 s
+60/276 - wallet_labels.py passed, Duration: 19 s
+61/276 - p2p_compactblocks.py passed, Duration: 28 s
+62/276 - p2p_compactblocks_blocksonly.py passed, Duration: 16 s
+63/276 - feature_reindex.py passed, Duration: 87 s
+64/276 - wallet_blank.py passed, Duration: 10 s
+65/276 - feature_config_args.py passed, Duration: 197 s
+66/276 - wallet_hd.py passed, Duration: 24 s
+67/276 - wallet_createwalletdescriptor.py passed, Duration: 9 s
+68/276 - interface_zmq.py skipped (python3-zmq module not available.)
+69/276 - wallet_gethdkeys.py passed, Duration: 12 s
+70/276 - wallet_fast_rescan.py passed, Duration: 25 s
+71/276 - interface_bitcoin_cli.py skipped (bitcoin-cli has not been compiled.)
+72/276 - rpc_validateaddress.py passed, Duration: 5 s
+73/276 - rpc_invalid_address_message.py passed, Duration: 6 s
+74/276 - mempool_resurrect.py passed, Duration: 6 s
+75/276 - tool_bitcoin_chainstate.py skipped (bitcoin-chainstate has not been compiled)
+76/276 - tool_wallet.py skipped (bitcoin-wallet has not been compiled)
+77/276 - wallet_keypool_topup.py passed, Duration: 45 s
+78/276 - tool_utils.py skipped (bitcoin-tx has not been compiled)
+79/276 - tool_signet_miner.py skipped (bitcoin-cli has not been compiled.)
+80/276 - wallet_txn_doublespend.py --mineblock passed, Duration: 14 s
+81/276 - wallet_txn_clone.py --segwit passed, Duration: 13 s
+82/276 - wallet_txn_clone.py passed, Duration: 13 s
+83/276 - rpc_getchaintips.py passed, Duration: 11 s
+84/276 - feature_bind_extra.py passed, Duration: 37 s
+85/276 - rpc_misc.py passed, Duration: 14 s
+86/276 - interface_rest.py passed, Duration: 13 s
+87/276 - mempool_spend_coinbase.py passed, Duration: 6 s
+88/276 - wallet_avoid_mixing_output_types.py passed, Duration: 9 s
+89/276 - mempool_reorg.py passed, Duration: 8 s
+90/276 - p2p_block_sync.py --v1transport passed, Duration: 6 s
+91/276 - wallet_createwallet.py --usecli skipped (bitcoin-cli has not been compiled.)
+92/276 - p2p_1p1c_network.py passed, Duration: 32 s
+93/276 - p2p_block_sync.py --v2transport passed, Duration: 7 s
+94/276 - wallet_createwallet.py passed, Duration: 16 s
+95/276 - wallet_reindex.py passed, Duration: 18 s
+96/276 - interface_usdt_coinselection.py skipped (bitcoind has not been built with USDT tracepoints enabled.)
+97/276 - interface_usdt_mempool.py skipped (bitcoind has not been built with USDT tracepoints enabled.)
+98/276 - interface_usdt_net.py skipped (bitcoind has not been built with USDT tracepoints enabled.)
+99/276 - interface_usdt_utxocache.py skipped (bitcoind has not been built with USDT tracepoints enabled.)
+100/276 - interface_usdt_validation.py skipped (bitcoind has not been built with USDT tracepoints enabled.)
+101/276 - interface_http.py passed, Duration: 17 s
+103/276 - interface_rpc.py passed, Duration: 11 s
+104/276 - wallet_signrawtransactionwithwallet.py passed, Duration: 9 s
+105/276 - wallet_reorgsrestore.py passed, Duration: 36 s
+106/276 - rpc_whitelist.py passed, Duration: 18 s
+107/276 - rpc_signrawtransactionwithkey.py passed, Duration: 7 s
+108/276 - p2p_addrv2_relay.py passed, Duration: 5 s
+109/276 - rpc_rawtransaction.py passed, Duration: 15 s
+110/276 - feature_proxy.py passed, Duration: 40 s
+111/276 - p2p_compactblocks_hb.py --v1transport passed, Duration: 20 s
+112/276 - wallet_transactiontime_rescan.py passed, Duration: 29 s
+113/276 - p2p_compactblocks_hb.py --v2transport passed, Duration: 20 s
+114/276 - feature_posix_fs_permissions.py passed, Duration: 6 s
+115/276 - p2p_disconnect_ban.py --v1transport passed, Duration: 16 s
+116/276 - rpc_decodescript.py passed, Duration: 5 s
+117/276 - p2p_disconnect_ban.py --v2transport passed, Duration: 16 s
+118/276 - mining_template_verification.py passed, Duration: 6 s
+119/276 - rpc_deprecated.py passed, Duration: 5 s
+120/276 - wallet_disable.py passed, Duration: 4 s
+121/276 - wallet_change_address.py passed, Duration: 15 s
+122/276 - p2p_getaddr_caching.py passed, Duration: 16 s
+123/276 - p2p_getdata.py passed, Duration: 10 s
+124/276 - p2p_addrfetch.py passed, Duration: 8 s
+125/276 - p2p_addr_relay.py passed, Duration: 49 s
+126/276 - rpc_net.py --v2transport passed, Duration: 38 s
+127/276 - rpc_net.py --v1transport passed, Duration: 40 s
+128/276 - wallet_keypool.py passed, Duration: 10 s
+129/276 - p2p_nobloomfilter_messages.py passed, Duration: 5 s
+130/276 - wallet_descriptor.py passed, Duration: 17 s
+131/276 - p2p_filter.py passed, Duration: 8 s
+132/276 - feature_framework_unit_tests.py passed, Duration: 11 s
+133/276 - rpc_setban.py --v1transport passed, Duration: 23 s
+134/276 - rpc_setban.py --v2transport passed, Duration: 25 s
+135/276 - p2p_blocksonly.py passed, Duration: 19 s
+136/276 - mining_prioritisetransaction.py passed, Duration: 17 s
+137/276 - p2p_invalid_locator.py passed, Duration: 6 s
+138/276 - p2p_invalid_block.py --v1transport passed, Duration: 6 s
+139/276 - p2p_invalid_block.py --v2transport passed, Duration: 5 s
+140/276 - p2p_invalid_tx.py --v1transport passed, Duration: 8 s
+141/276 - p2p_invalid_tx.py --v2transport passed, Duration: 8 s
+142/276 - p2p_v2_transport.py passed, Duration: 11 s
+143/276 - p2p_v2_misbehaving.py passed, Duration: 5 s
+144/276 - p2p_v2_encrypted.py passed, Duration: 14 s
+145/276 - example_test.py passed, Duration: 8 s
+146/276 - rpc_blockchain.py --v1transport passed, Duration: 218 s
+147/276 - rpc_blockchain.py --v2transport passed, Duration: 217 s
+148/276 - wallet_multisig_descriptor_psbt.py passed, Duration: 11 s
+149/276 - wallet_backwards_compatibility.py skipped (previous releases not available or disabled)
+150/276 - wallet_miniscript_decaying_multisig_descriptor_psbt.py passed, Duration: 11 s
+151/276 - wallet_txn_doublespend.py passed, Duration: 9 s
+152/276 - wallet_txn_clone.py --mineblock passed, Duration: 11 s
+153/276 - rpc_getblockfilter.py passed, Duration: 12 s
+154/276 - feature_notifications.py passed, Duration: 16 s
+155/276 - rpc_invalidateblock.py passed, Duration: 7 s
+156/276 - feature_utxo_set_hash.py passed, Duration: 10 s
+157/276 - rpc_getblockfrompeer.py passed, Duration: 24 s
+158/276 - mempool_packages.py passed, Duration: 10 s
+159/276 - mempool_package_onemore.py passed, Duration: 6 s
+160/276 - mempool_truc.py passed, Duration: 61 s
+161/276 - mempool_package_limits.py passed, Duration: 7 s
+162/276 - feature_versionbits_warning.py passed, Duration: 9 s
+163/276 - tool_utxo_to_sqlite.py passed, Duration: 17 s
+164/276 - rpc_preciousblock.py passed, Duration: 6 s
+165/276 - mempool_package_rbf.py passed, Duration: 28 s
+166/276 - wallet_importprunedfunds.py passed, Duration: 9 s
+167/276 - feature_blocksxor.py passed, Duration: 19 s
+168/276 - p2p_leak_tx.py --v1transport passed, Duration: 6 s
+169/276 - feature_rbf.py passed, Duration: 54 s
+170/276 - p2p_leak_tx.py --v2transport passed, Duration: 6 s
+171/276 - p2p_eviction.py passed, Duration: 9 s
+172/276 - p2p_ibd_stalling.py --v1transport passed, Duration: 8 s
+173/276 - p2p_outbound_eviction.py passed, Duration: 11 s
+174/276 - p2p_net_deadlock.py --v1transport passed, Duration: 7 s
+175/276 - p2p_net_deadlock.py --v2transport passed, Duration: 6 s
+176/276 - p2p_ibd_stalling.py --v2transport passed, Duration: 11 s
+177/276 - wallet_signmessagewithaddress.py passed, Duration: 5 s
+178/276 - rpc_signmessagewithprivkey.py passed, Duration: 8 s
+179/276 - rpc_generate.py passed, Duration: 12 s
+180/276 - feature_nulldummy.py passed, Duration: 10 s
+181/276 - p2p_initial_headers_sync.py passed, Duration: 25 s
+182/276 - mempool_accept.py passed, Duration: 22 s
+183/276 - mempool_expiry.py passed, Duration: 22 s
+184/276 - wallet_balance.py passed, Duration: 41 s
+185/276 - wallet_crosschain.py passed, Duration: 12 s
+186/276 - mining_mainnet.py passed, Duration: 10 s
+187/276 - p2p_mutated_blocks.py passed, Duration: 9 s
+188/276 - feature_signet.py passed, Duration: 15 s
+189/276 - wallet_importdescriptors.py passed, Duration: 39 s
+190/276 - rpc_named_arguments.py passed, Duration: 6 s
+191/276 - feature_startupnotify.py passed, Duration: 10 s
+192/276 - wallet_simulaterawtx.py passed, Duration: 8 s
+193/276 - wallet_listdescriptors.py passed, Duration: 8 s
+194/276 - wallet_listsinceblock.py passed, Duration: 18 s
+195/276 - p2p_leak.py passed, Duration: 11 s
+196/276 - wallet_encryption.py passed, Duration: 10 s
+197/276 - feature_dersig.py passed, Duration: 7 s
+198/276 - rpc_uptime.py passed, Duration: 5 s
+199/276 - feature_cltv.py passed, Duration: 8 s
+200/276 - feature_reindex_init.py passed, Duration: 14 s
+201/276 - wallet_fallbackfee.py passed, Duration: 9 s
+202/276 - rpc_dumptxoutset.py passed, Duration: 6 s
+203/276 - wallet_resendwallettransactions.py passed, Duration: 16 s
+204/276 - rpc_estimatefee.py passed, Duration: 6 s
+205/276 - feature_discover.py passed, Duration: 27 s
+206/276 - rpc_getblockstats.py passed, Duration: 5 s
+207/276 - feature_bind_port_externalip.py skipped (To run this test make sure that 1.1.1.1 (a routable address) is assigned to one of the interfaces on this machine and rerun with --ihave1111)
+208/276 - feature_minchainwork.py passed, Duration: 19 s
+209/276 - feature_port.py passed, Duration: 27 s
+210/276 - wallet_create_tx.py passed, Duration: 26 s
+211/276 - wallet_sendmany.py passed, Duration: 6 s
+212/276 - wallet_send.py passed, Duration: 27 s
+213/276 - wallet_sendall.py passed, Duration: 14 s
+214/276 - p2p_fingerprint.py passed, Duration: 7 s
+215/276 - wallet_rescan_unconfirmed.py passed, Duration: 12 s
+216/276 - wallet_spend_unconfirmed.py passed, Duration: 20 s
+217/276 - feature_uacomment.py passed, Duration: 10 s
+218/276 - wallet_coinbase_category.py passed, Duration: 6 s
+30/276 - wallet_multiwallet.py failed, Duration: 63 s
+
+stdout:
+2025-10-29T18:48:08.839983Z TestFramework (INFO): PRNG seed is: 2054256795446374717
+2025-10-29T18:48:08.840945Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/wallet_multiwallet_247
+2025-10-29T18:48:19.231152Z TestFramework (INFO): Verify warning is emitted when failing to scan the wallets directory
+2025-10-29T18:49:05.145463Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/wallet_multiwallet.py", line 209, in run_test
+    exp_stderr = f"Error: SQLiteDatabase: Unable to obtain an exclusive lock on the database, is it being used by another instance of {self.config['environment']['CLIENT_NAME']}?"
+                                                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_NAME'
+2025-10-29T18:49:05.608960Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T18:49:05.609227Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/wallet_multiwallet_247
+2025-10-29T18:49:05.609372Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/wallet_multiwallet_247/test_framework.log
+2025-10-29T18:49:05.609606Z TestFramework (ERROR): 
+2025-10-29T18:49:05.609899Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/wallet_multiwallet_247' to consolidate all logs
+2025-10-29T18:49:05.610024Z TestFramework (ERROR): 
+2025-10-29T18:49:05.610125Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/wallet_multiwallet.py", line 409, in <module>
+    MultiWalletTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+[node 0] Cleaning up leftover process
+
+
+102/276 - rpc_users.py failed, Duration: 3 s
+
+stdout:
+2025-10-29T18:55:46.977996Z TestFramework (INFO): PRNG seed is: 5692546307817550849
+2025-10-29T18:55:46.978821Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/rpc_users_172
+2025-10-29T18:55:49.674561Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/rpc_users.py", line 141, in run_test
+    self.conf_setup()
+  File "/home/d_re/bitcoin/build/test/functional/rpc_users.py", line 49, in conf_setup
+    gen_rpcauth = self.config["environment"]["RPCAUTH"]
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'RPCAUTH'
+2025-10-29T18:55:49.730387Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T18:55:49.730650Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/rpc_users_172
+2025-10-29T18:55:49.730776Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/rpc_users_172/test_framework.log
+2025-10-29T18:55:49.730994Z TestFramework (ERROR): 
+2025-10-29T18:55:49.731265Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/rpc_users_172' to consolidate all logs
+2025-10-29T18:55:49.731405Z TestFramework (ERROR): 
+2025-10-29T18:55:49.731504Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/rpc_users.py", line 200, in <module>
+    HTTPBasicsTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+[node 1] Cleaning up leftover process
+[node 0] Cleaning up leftover process
+
+
+219/276 - feature_filelock.py failed, Duration: 2 s
+
+stdout:
+2025-10-29T19:05:11.744286Z TestFramework (INFO): PRNG seed is: 6014337678759250618
+2025-10-29T19:05:11.745251Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/feature_filelock_55
+2025-10-29T19:05:14.045247Z TestFramework (INFO): Using datadir /tmp/test_runner_₿_🏃_20251029_213845/feature_filelock_55/node0/regtest
+2025-10-29T19:05:14.045697Z TestFramework (INFO): Using blocksdir /tmp/test_runner_₿_🏃_20251029_213845/feature_filelock_55/node0/regtest/blocks
+2025-10-29T19:05:14.046210Z TestFramework (INFO): Check that we can't start a second bitcoind instance using the same datadir
+2025-10-29T19:05:14.046683Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/feature_filelock.py", line 33, in run_test
+    expected_msg = f"Error: Cannot obtain a lock on directory {datadir}. {self.config['environment']['CLIENT_NAME']} is probably already running."
+                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_NAME'
+2025-10-29T19:05:14.102692Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:05:14.103163Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/feature_filelock_55
+2025-10-29T19:05:14.103417Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/feature_filelock_55/test_framework.log
+2025-10-29T19:05:14.103976Z TestFramework (ERROR): 
+2025-10-29T19:05:14.104436Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/feature_filelock_55' to consolidate all logs
+2025-10-29T19:05:14.104779Z TestFramework (ERROR): 
+2025-10-29T19:05:14.104984Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+220/276 - feature_loadblock.py passed, Duration: 10 s
+221/276 - p2p_add_connections.py passed, Duration: 15 s
+222/276 - feature_bind_port_discover.py skipped (To run this test make sure that 1.1.1.1 and 2.2.2.2 (routable addresses) are assigned to the interfaces on this machine and rerun with --ihave1111and2222)
+223/276 - p2p_unrequested_blocks.py passed, Duration: 8 s
+224/276 - p2p_message_capture.py passed, Duration: 5 s
+225/276 - wallet_assumeutxo.py passed, Duration: 44 s
+227/276 - feature_includeconf.py passed, Duration: 18 s
+228/276 - feature_fastprune.py passed, Duration: 7 s
+229/276 - feature_asmap.py passed, Duration: 46 s
+230/276 - feature_framework_miniwallet.py passed, Duration: 34 s
+231/276 - mempool_compatibility.py skipped (previous releases not available or disabled)
+232/276 - mempool_accept_wtxid.py passed, Duration: 14 s
+233/276 - mempool_unbroadcast.py passed, Duration: 20 s
+234/276 - feature_init.py passed, Duration: 182 s
+235/276 - rpc_deriveaddresses.py passed, Duration: 5 s
+236/276 - rpc_deriveaddresses.py --usecli skipped (bitcoin-cli has not been compiled.)
+237/276 - mempool_sigoplimit.py passed, Duration: 58 s
+238/276 - mempool_dust.py passed, Duration: 63 s
+239/276 - p2p_ping.py passed, Duration: 6 s
+240/276 - rpc_getdescriptoractivity.py passed, Duration: 9 s
+241/276 - tool_bitcoin.py passed, Duration: 0 s
+242/276 - rpc_scanblocks.py passed, Duration: 8 s
+243/276 - p2p_tx_privacy.py passed, Duration: 17 s
+244/276 - feature_unsupported_utxo_db.py skipped (previous releases not available or disabled)
+245/276 - p2p_sendtxrcncl.py passed, Duration: 33 s
+246/276 - interface_ipc.py skipped (ipc has not been compiled.)
+247/276 - rpc_scantxoutset.py passed, Duration: 39 s
+248/276 - mempool_datacarrier.py passed, Duration: 7 s
+249/276 - feature_logging.py passed, Duration: 45 s
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/feature_filelock.py", line 55, in <module>
+    FilelockTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+[node 0] Cleaning up leftover process
+
+
+226/276 - feature_addrman.py failed, Duration: 9 s
+
+stdout:
+2025-10-29T19:05:58.730067Z TestFramework (INFO): PRNG seed is: 9155176846815142413
+2025-10-29T19:05:58.730909Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/feature_addrman_47
+2025-10-29T19:06:01.295253Z TestFramework (INFO): Check that mocked addrman is valid
+2025-10-29T19:06:05.326372Z TestFramework (INFO): Check that addrman with negative lowest_compatible cannot be read
+2025-10-29T19:06:07.491131Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/feature_addrman.py", line 73, in run_test
+    expected_msg=init_error(
+                 ^^^^^^^^^^^
+  File "/home/d_re/bitcoin/build/test/functional/feature_addrman.py", line 57, in <lambda>
+    f"is a bug, please report it to {self.config['environment']['CLIENT_BUGREPORT']}. "
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+2025-10-29T19:06:07.542664Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:06:07.542789Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/feature_addrman_47
+2025-10-29T19:06:07.542855Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/feature_addrman_47/test_framework.log
+2025-10-29T19:06:07.542975Z TestFramework (ERROR): 
+2025-10-29T19:06:07.543095Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/feature_addrman_47' to consolidate all logs
+2025-10-29T19:06:07.543151Z TestFramework (ERROR): 
+2025-10-29T19:06:07.543196Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/feature_addrman.py", line 163, in <module>
+    AddrmanTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+
+
+250/276 - feature_anchors.py failed, Duration: 18 s
+
+stdout:
+2025-10-29T19:08:58.520530Z TestFramework (INFO): PRNG seed is: 4747459229317793265
+2025-10-29T19:08:58.521626Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26
+2025-10-29T19:09:00.866664Z TestFramework (INFO): When node starts, check if anchors.dat doesn't exist
+2025-10-29T19:09:00.867380Z TestFramework (INFO): Add 2 block-relay-only connections to node
+2025-10-29T19:09:01.175270Z TestFramework (INFO): Add 5 inbound connections to node
+2025-10-29T19:09:01.732725Z TestFramework (INFO): Check node connections
+2025-10-29T19:09:04.212467Z TestFramework (INFO): Check the addresses in anchors.dat
+2025-10-29T19:09:04.212922Z TestFramework (INFO): Perturb anchors.dat to test it doesn't throw an error during initialization
+2025-10-29T19:09:06.503275Z TestFramework (INFO): When node starts, check if anchors.dat doesn't exist anymore
+2025-10-29T19:09:06.503548Z TestFramework (INFO): Ensure addrv2 support
+2025-10-29T19:09:11.517796Z TestFramework (INFO): Add 256-bit-address block-relay-only connections to node
+2025-10-29T19:09:14.352551Z TestFramework (INFO): Check for addrv2 addresses in anchors.dat
+2025-10-29T19:09:14.353347Z TestFramework (INFO): Restarting node attempts to reconnect to anchors
+2025-10-29T19:09:16.651322Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/feature_anchors.py", line 139, in run_test
+    with self.nodes[0].assert_debug_log([f"Trying to make an anchor connection to {ONION_ADDR}"]):
+  File "/usr/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_node.py", line 572, in assert_debug_log
+    self._raise_assertion_error('Expected messages "{}" does not partially match log:\n\n{}\n\n'.format(str(expected_msgs), print_log))
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_node.py", line 225, in _raise_assertion_error
+    raise AssertionError(self._node_msg(msg))
+AssertionError: [node 0] Expected messages "['Trying to make an anchor connection to pg6mmjiyjmcrsslvykfwnntlaru7p5svn6y2ymmju6nubxndf4pscryd.onion:8333']" does not partially match log:
+
+ - 
+ - 
+ - 
+ - 
+ - 
+ - 2025-10-29T19:09:14.364259Z [init] [init/common.cpp:153] [void init::LogPackageVersion()] Bitcoin Core version v30.99.0-d2987102dd13 (release build)
+ - 2025-10-29T19:09:14.364271Z [init] [init.cpp:745] [void InitParameterInteraction(ArgsManager&)] parameter interaction: -bind set -> setting -listen=1
+ - 2025-10-29T19:09:14.364547Z [init] [kernel/context.cpp:20] [kernel::Context::Context()::<lambda()>] Using the 'sse4(1way);sse41(4way);avx2(8way)' SHA256 implementation
+ - 2025-10-29T19:09:14.467200Z [init] [random.cpp:113] [void {anonymous}::ReportHardwareRand()] Using RdRand as an additional entropy source
+ - 2025-10-29T19:09:14.469053Z [init] [init/common.cpp:121] [bool init::StartLogging(const ArgsManager&)] Default data directory /home/d_re/.bitcoin
+ - 2025-10-29T19:09:14.469061Z [init] [init/common.cpp:122] [bool init::StartLogging(const ArgsManager&)] Using data directory /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest
+ - 2025-10-29T19:09:14.469078Z [init] [init/common.cpp:131] [bool init::StartLogging(const ArgsManager&)] Config file: /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/bitcoin.conf
+ - 2025-10-29T19:09:14.469091Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: regtest="1"
+ - 2025-10-29T19:09:14.469100Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] bind="127.0.0.1"
+ - 2025-10-29T19:09:14.469108Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] discover="0"
+ - 2025-10-29T19:09:14.469114Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] dnsseed="0"
+ - 2025-10-29T19:09:14.469121Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] fallbackfee="0.0002"
+ - 2025-10-29T19:09:14.469127Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] fixedseeds="0"
+ - 2025-10-29T19:09:14.469133Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] keypool="1"
+ - 2025-10-29T19:09:14.469139Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] listenonion="0"
+ - 2025-10-29T19:09:14.469145Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] maxconnections="94"
+ - 2025-10-29T19:09:14.469151Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] natpmp="0"
+ - 2025-10-29T19:09:14.469165Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] par="2"
+ - 2025-10-29T19:09:14.469172Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] peertimeout="999999999"
+ - 2025-10-29T19:09:14.469178Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] port="11312"
+ - 2025-10-29T19:09:14.469184Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] printtoconsole="0"
+ - 2025-10-29T19:09:14.469192Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] rpcdoccheck="1"
+ - 2025-10-29T19:09:14.469198Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] rpcport="16312"
+ - 2025-10-29T19:09:14.469205Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] rpcservertimeout="99000"
+ - 2025-10-29T19:09:14.469212Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] server="1"
+ - 2025-10-29T19:09:14.469218Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] shrinkdebugfile="0"
+ - 2025-10-29T19:09:14.469225Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Config file arg: [regtest] unsafesqlitesync="1"
+ - 2025-10-29T19:09:14.469232Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: datadir="/tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0"
+ - 2025-10-29T19:09:14.469239Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: debug=""
+ - 2025-10-29T19:09:14.469245Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: debugexclude="libevent"
+ - 2025-10-29T19:09:14.469251Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: debugexclude="leveldb"
+ - 2025-10-29T19:09:14.469257Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: debugexclude="rand"
+ - 2025-10-29T19:09:14.469263Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: disablewallet=""
+ - 2025-10-29T19:09:14.469274Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: loglevel="trace"
+ - 2025-10-29T19:09:14.469281Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: logratelimit=false
+ - 2025-10-29T19:09:14.469287Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: logsourcelocations=""
+ - 2025-10-29T19:09:14.469293Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: logthreadnames=""
+ - 2025-10-29T19:09:14.469299Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: logtimemicros=""
+ - 2025-10-29T19:09:14.469305Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: onion="127.0.0.1:11313"
+ - 2025-10-29T19:09:14.469311Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: uacomment="testnode0"
+ - 2025-10-29T19:09:14.469317Z [init] [common/args.cpp:865] [void ArgsManager::logArgsPrefix(const std::string&, const std::string&, const std::map<std::__cxx11::basic_string<char>, std::vector<UniValue> >&) const] Command-line arg: v2transport="0"
+ - 2025-10-29T19:09:14.469324Z [init] [init.cpp:1411] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] Using at most 94 automatic connections (10240 file descriptors available)
+ - 2025-10-29T19:09:14.469518Z [init] [init.cpp:1451] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] Log rate limiting disabled
+ - 2025-10-29T19:09:14.469540Z [init] [wallet/init.cpp:108] [virtual void wallet::WalletInit::Construct(node::NodeContext&) const] Wallet disabled!
+ - 2025-10-29T19:09:14.469668Z [scheduler] [util/thread.cpp:20] [void util::TraceThread(std::string_view, std::function<void()>)] scheduler thread start
+ - 2025-10-29T19:09:14.472008Z [init] [httpserver.cpp:241] [bool InitHTTPAllowList()] [http] Allowing HTTP connections from: 127.0.0.0/8 ::1/128 
+ - 2025-10-29T19:09:14.472081Z [init] [httpserver.cpp:394] [bool HTTPBindAddresses(evhttp*)] Binding RPC on address ::1 port 16312
+ - 2025-10-29T19:09:14.472201Z [init] [httpserver.cpp:394] [bool HTTPBindAddresses(evhttp*)] Binding RPC on address 127.0.0.1 port 16312
+ - 2025-10-29T19:09:14.472256Z [init] [httpserver.cpp:479] [bool InitHTTPServer(const util::SignalInterrupt&)] [http] Initialized HTTP server
+ - 2025-10-29T19:09:14.472265Z [init] [httpserver.cpp:481] [bool InitHTTPServer(const util::SignalInterrupt&)] [http] creating work queue of depth 64
+ - 2025-10-29T19:09:14.472270Z [init] [rpc/server.cpp:277] [void StartRPC()] [rpc] Starting RPC
+ - 2025-10-29T19:09:14.472276Z [init] [httprpc.cpp:333] [bool StartHTTPRPC(const std::any&)] [rpc] Starting HTTP RPC server
+ - 2025-10-29T19:09:14.472367Z [init] [rpc/request.cpp:140] [GenerateAuthCookieResult GenerateAuthCookie(const std::optional<std::filesystem::perms>&, std::string&, std::string&)] Generated RPC authentication cookie /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest/.cookie
+ - 2025-10-29T19:09:14.472378Z [init] [rpc/request.cpp:141] [GenerateAuthCookieResult GenerateAuthCookie(const std::optional<std::filesystem::perms>&, std::string&, std::string&)] Permissions used for cookie: rw-------
+ - 2025-10-29T19:09:14.472389Z [init] [httprpc.cpp:265] [bool InitRPCAuthentication()] Using random cookie authentication.
+ - 2025-10-29T19:09:14.472413Z [init] [httpserver.cpp:761] [void RegisterHTTPHandler(const std::string&, bool, const HTTPRequestHandler&)] [http] Registering HTTP handler for / (exactmatch 1)
+ - 2025-10-29T19:09:14.472420Z [init] [httpserver.cpp:761] [void RegisterHTTPHandler(const std::string&, bool, const HTTPRequestHandler&)] [http] Registering HTTP handler for /wallet/ (exactmatch 0)
+ - 2025-10-29T19:09:14.472426Z [init] [httpserver.cpp:504] [void StartHTTPServer()] Starting HTTP server with 16 worker threads
+ - 2025-10-29T19:09:14.472638Z [http] [httpserver.cpp:354] [void ThreadHTTP(event_base*)] [http] Entering http event loop
+ - 2025-10-29T19:09:14.473742Z [init] [init.cpp:1567] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] Using /16 prefix for IP bucketing
+ - 2025-10-29T19:09:14.473757Z [init] [noui.cpp:57] [void noui_InitMessage(const std::string&)] init message: Loading P2P addresses…
+ - 2025-10-29T19:09:14.474370Z [init] [logging/timer.h:58] [void BCLog::Timer<TimeType>::Log(const std::string&) [with TimeType = std::chrono::duration<long int, std::ratio<1, 1000> >; std::string = std::__cxx11::basic_string<char>]] [addrman] CheckAddrman: new 0, tried 0, total 0 started
+ - 2025-10-29T19:09:14.474480Z [init] [logging/timer.h:58] [void BCLog::Timer<TimeType>::Log(const std::string&) [with TimeType = std::chrono::duration<long int, std::ratio<1, 1000> >; std::string = std::__cxx11::basic_string<char>]] [addrman] CheckAddrman: completed (0.09ms)
+ - 2025-10-29T19:09:14.474498Z [init] [addrdb.cpp:207] [util::Result<std::unique_ptr<AddrMan> > LoadAddrman(const NetGroupManager&, const ArgsManager&)] Loaded 0 addresses from peers.dat  0ms
+ - 2025-10-29T19:09:14.474933Z [init] [noui.cpp:57] [void noui_InitMessage(const std::string&)] init message: Loading banlist…
+ - 2025-10-29T19:09:14.475002Z [init] [banman.cpp:39] [void BanMan::LoadBanlist()] [net] Loaded 0 banned node addresses/subnets  0ms
+ - 2025-10-29T19:09:14.475027Z [init] [net.cpp:2430] [void CConnman::SetTryNewOutboundPeer(bool)] [net] setting try another outbound peer=false
+ - 2025-10-29T19:09:14.475039Z [init] [net.cpp:3215] [void CConnman::SetNetworkActive(bool)] SetNetworkActive: true
+ - 2025-10-29T19:09:14.476745Z [init] [policy/fees.cpp:473] [void TxConfirmStats::Read(AutoFile&, size_t)] [estimatefee] Reading estimates: 190 buckets counting confirms up to 48 blocks
+ - 2025-10-29T19:09:14.477017Z [init] [policy/fees.cpp:473] [void TxConfirmStats::Read(AutoFile&, size_t)] [estimatefee] Reading estimates: 190 buckets counting confirms up to 12 blocks
+ - 2025-10-29T19:09:14.477688Z [init] [policy/fees.cpp:473] [void TxConfirmStats::Read(AutoFile&, size_t)] [estimatefee] Reading estimates: 190 buckets counting confirms up to 1008 blocks
+ - 2025-10-29T19:09:14.478016Z [init] [init.cpp:1769] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] Cache configuration:
+ - 2025-10-29T19:09:14.478041Z [init] [init.cpp:1770] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] * Using 2.0 MiB for block index database
+ - 2025-10-29T19:09:14.478058Z [init] [init.cpp:1778] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] * Using 8.0 MiB for chain state database
+ - 2025-10-29T19:09:14.478084Z [init] [init.cpp:1297] [node::ChainstateLoadResult InitAndLoadChainstate(node::NodeContext&, bool, bool, const kernel::CacheSizes&, const ArgsManager&)] * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+ - 2025-10-29T19:09:14.478111Z [init] [checkqueue.h:147] [CCheckQueue<T, R>::CCheckQueue(unsigned int, int) [with T = CScriptCheck; R = std::pair<ScriptError_t, std::__cxx11::basic_string<char> >]] Script verification uses 1 additional threads
+ - 2025-10-29T19:09:14.478329Z [init] [node/blockstorage.cpp:1176] [auto node::InitBlocksdirXorKey(const BlockManager::Options&)] Using obfuscation key for blocksdir *.dat files (/tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest/blocks): '853466647ff49fd7'
+ - 2025-10-29T19:09:14.478372Z [init] [dbwrapper.cpp:236] [CDBWrapper::CDBWrapper(const DBParams&)] Opening LevelDB in /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest/blocks/index
+ - 2025-10-29T19:09:14.608769Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52160
+ - 2025-10-29T19:09:14.609303Z [httpworker.0] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:14.864150Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52176
+ - 2025-10-29T19:09:14.864864Z [httpworker.1] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:15.119771Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52192
+ - 2025-10-29T19:09:15.120377Z [httpworker.2] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:15.374772Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52196
+ - 2025-10-29T19:09:15.375407Z [httpworker.3] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:15.583368Z [init] [dbwrapper.cpp:244] [CDBWrapper::CDBWrapper(const DBParams&)] Opened LevelDB successfully
+ - 2025-10-29T19:09:15.584076Z [init] [dbwrapper.cpp:260] [CDBWrapper::CDBWrapper(const DBParams&)] Using obfuscation key for /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest/blocks/index: 0000000000000000
+ - 2025-10-29T19:09:15.621562Z [init] [script/sigcache.cpp:35] [SignatureCache::SignatureCache(size_t)] Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+ - 2025-10-29T19:09:15.627995Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52204
+ - 2025-10-29T19:09:15.628307Z [httpworker.4] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:15.636100Z [init] [validation.cpp:2118] [ValidationCache::ValidationCache(size_t, size_t)] Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+ - 2025-10-29T19:09:15.636156Z [init] [noui.cpp:57] [void noui_InitMessage(const std::string&)] init message: Loading block index…
+ - 2025-10-29T19:09:15.636168Z [init] [node/chainstate.cpp:150] [node::ChainstateLoadResult node::LoadChainstate(ChainstateManager&, const kernel::CacheSizes&, const ChainstateLoadOptions&)] Validating signatures for all blocks.
+ - 2025-10-29T19:09:15.636177Z [init] [node/chainstate.cpp:152] [node::ChainstateLoadResult node::LoadChainstate(ChainstateManager&, const kernel::CacheSizes&, const ChainstateLoadOptions&)] Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+ - 2025-10-29T19:09:15.636897Z [init] [node/blockstorage.cpp:511] [bool node::BlockManager::LoadBlockIndexDB(const std::optional<uint256>&)] Loading block index db: last block file = 0
+ - 2025-10-29T19:09:15.636923Z [init] [node/blockstorage.cpp:515] [bool node::BlockManager::LoadBlockIndexDB(const std::optional<uint256>&)] Loading block index db: last block file info: CBlockFileInfo(blocks=201, size=52791, heights=0...200, time=2011-02-02...2025-10-29)
+ - 2025-10-29T19:09:15.636933Z [init] [node/blockstorage.cpp:526] [bool node::BlockManager::LoadBlockIndexDB(const std::optional<uint256>&)] Checking all blk files are present...
+ - 2025-10-29T19:09:15.637134Z [init] [node/chainstate.cpp:87] [node::ChainstateLoadResult node::CompleteChainstateInitialization(ChainstateManager&, const ChainstateLoadOptions&)] Initializing chainstate Chainstate [ibd] @ height -1 (null)
+ - 2025-10-29T19:09:15.637182Z [init] [dbwrapper.cpp:236] [CDBWrapper::CDBWrapper(const DBParams&)] Opening LevelDB in /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest/chainstate
+ - 2025-10-29T19:09:15.880288Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52206
+ - 2025-10-29T19:09:15.880602Z [httpworker.5] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:16.133489Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52220
+ - 2025-10-29T19:09:16.134043Z [httpworker.6] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:16.388183Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52236
+ - 2025-10-29T19:09:16.388829Z [httpworker.7] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:16.612490Z [init] [dbwrapper.cpp:244] [CDBWrapper::CDBWrapper(const DBParams&)] Opened LevelDB successfully
+ - 2025-10-29T19:09:16.613177Z [init] [dbwrapper.cpp:260] [CDBWrapper::CDBWrapper(const DBParams&)] Using obfuscation key for /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/node0/regtest/chainstate: a2a2fc1f5055bd5b
+ - 2025-10-29T19:09:16.613457Z [init] [validation.cpp:4662] [bool Chainstate::LoadChainTip()] Loaded best chain: hashBestChain=56f2337cb573bb6289abf4582ff1c157328052c237e3f2adb132479b88315195 height=200 date=2025-10-29T19:09:00Z progress=1.000000
+ - 2025-10-29T19:09:16.613515Z [init] [noui.cpp:57] [void noui_InitMessage(const std::string&)] init message: Verifying blocks…
+ - 2025-10-29T19:09:16.613547Z [init] [validation.cpp:4708] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verifying last 6 blocks at level 3
+ - 2025-10-29T19:09:16.613650Z [init] [validation.cpp:4717] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 0%
+ - 2025-10-29T19:09:16.614366Z [init] [validation.cpp:4725] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 16%
+ - 2025-10-29T19:09:16.614757Z [init] [validation.cpp:4725] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 33%
+ - 2025-10-29T19:09:16.615204Z [init] [validation.cpp:4725] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 50%
+ - 2025-10-29T19:09:16.615551Z [init] [validation.cpp:4725] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 66%
+ - 2025-10-29T19:09:16.615990Z [init] [validation.cpp:4725] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 83%
+ - 2025-10-29T19:09:16.616350Z [init] [validation.cpp:4725] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification progress: 99%
+ - 2025-10-29T19:09:16.616380Z [init] [validation.cpp:4819] [VerifyDBResult CVerifyDB::VerifyDB(Chainstate&, const Consensus::Params&, CCoinsView&, int, int)] Verification: No coin database inconsistencies in last 6 blocks (6 transactions)
+ - 2025-10-29T19:09:16.616466Z [init] [init.cpp:1385] [node::ChainstateLoadResult InitAndLoadChainstate(node::NodeContext&, bool, bool, const kernel::CacheSizes&, const ArgsManager&)] Block index and chainstate loaded
+ - 2025-10-29T19:09:16.616617Z [init] [init.cpp:1877] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] Setting NODE_NETWORK on non-prune mode
+ - 2025-10-29T19:09:16.617284Z [init] [init.cpp:2007] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] block tree size = 201
+ - 2025-10-29T19:09:16.617330Z [init] [init.cpp:2020] [bool AppInitMain(node::NodeContext&, interfaces::BlockAndHeaderTipInfo*)] nBestHeight = 200
+ - 2025-10-29T19:09:16.617526Z [init] [net.cpp:3188] [bool CConnman::BindListenPort(const CService&, bilingual_str&, NetPermissionFlags)] Bound to 127.0.0.1:11312
+ - 2025-10-29T19:09:16.617635Z [initload] [util/thread.cpp:20] [void util::TraceThread(std::string_view, std::function<void()>)] initload thread start
+ - 2025-10-29T19:09:16.617886Z [init] [addrdb.cpp:239] [std::vector<CAddress> ReadAnchors(const fs::path&)] Loaded 1 addresses from "anchors.dat"
+ - 2025-10-29T19:09:16.618078Z [initload] [node/mempool_persist.cpp:77] [bool node::LoadMempool(CTxMemPool&, const fs::path&, Chainstate&, ImportMempoolOptions&&)] Loading 0 mempool transactions from file...
+ - 2025-10-29T19:09:16.618129Z [initload] [node/mempool_persist.cpp:149] [bool node::LoadMempool(CTxMemPool&, const fs::path&, Chainstate&, ImportMempoolOptions&&)] Imported mempool transactions from file: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+ - 2025-10-29T19:09:16.618162Z [initload] [util/thread.cpp:22] [void util::TraceThread(std::string_view, std::function<void()>)] initload thread exit
+ - 2025-10-29T19:09:16.618256Z [init] [net.cpp:3350] [bool CConnman::Start(CScheduler&, const Options&)] 1 block-relay-only anchors will be tried for connections.
+ - 2025-10-29T19:09:16.618356Z [init] [noui.cpp:57] [void noui_InitMessage(const std::string&)] init message: Starting network threads…
+ - 2025-10-29T19:09:16.618783Z [init] [net.cpp:3384] [bool CConnman::Start(CScheduler&, const Options&)] DNS seeding disabled
+ - 2025-10-29T19:09:16.619038Z [net] [util/thread.cpp:20] [void util::TraceThread(std::string_view, std::function<void()>)] net thread start
+ - 2025-10-29T19:09:16.619592Z [addcon] [util/thread.cpp:20] [void util::TraceThread(std::string_view, std::function<void()>)] addcon thread start
+ - 2025-10-29T19:09:16.619739Z [opencon] [util/thread.cpp:20] [void util::TraceThread(std::string_view, std::function<void()>)] opencon thread start
+ - 2025-10-29T19:09:16.619839Z [opencon] [net.cpp:2568] [void CConnman::ThreadOpenConnections(std::vector<std::__cxx11::basic_string<char> >, std::span<const std::__cxx11::basic_string<char> >)] Fixed seeds are disabled
+ - 2025-10-29T19:09:16.620026Z [init] [noui.cpp:57] [void noui_InitMessage(const std::string&)] init message: Done loading
+ - 2025-10-29T19:09:16.620318Z [msghand] [util/thread.cpp:20] [void util::TraceThread(std::string_view, std::function<void()>)] msghand thread start
+ - 2025-10-29T19:09:16.643534Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52248
+ - 2025-10-29T19:09:16.644069Z [httpworker.8] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getblockcount user=__cookie__
+ - 2025-10-29T19:09:16.646615Z [http] [httpserver.cpp:307] [void http_request_cb(evhttp_request*, void*)] [http] Received a POST request for / from 127.0.0.1:52248
+ - 2025-10-29T19:09:16.647143Z [httpworker.9] [rpc/request.cpp:243] [void JSONRPCRequest::parse(const UniValue&)] [rpc] ThreadRPCServer method=getmempoolinfo user=__cookie__
+
+
+2025-10-29T19:09:16.838858Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:09:16.839024Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26
+2025-10-29T19:09:16.839100Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26/test_framework.log
+2025-10-29T19:09:16.839249Z TestFramework (ERROR): 
+2025-10-29T19:09:16.839385Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/feature_anchors_26' to consolidate all logs
+2025-10-29T19:09:16.839450Z TestFramework (ERROR): 
+2025-10-29T19:09:16.839502Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+251/276 - feature_coinstatsindex_compatibility.py skipped (previous releases not available or disabled)
+252/276 - wallet_timelock.py passed, Duration: 6 s
+253/276 - wallet_orphanedreward.py passed, Duration: 14 s
+254/276 - feature_blocksdir.py passed, Duration: 9 s
+255/276 - mining_basic.py passed, Duration: 420 s
+256/276 - wallet_startup.py passed, Duration: 22 s
+257/276 - feature_remove_pruned_files_on_startup.py passed, Duration: 18 s
+258/276 - p2p_i2p_sessions.py passed, Duration: 4 s
+259/276 - p2p_i2p_ports.py passed, Duration: 5 s
+261/276 - rpc_getdescriptorinfo.py passed, Duration: 5 s
+262/276 - feature_presegwit_node_upgrade.py passed, Duration: 13 s
+263/276 - rpc_mempool_info.py passed, Duration: 6 s
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/feature_anchors.py", line 144, in <module>
+    AnchorsTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+[node 0] Cleaning up leftover process
+
+
+260/276 - feature_settings.py failed, Duration: 5 s
+
+stdout:
+2025-10-29T19:10:09.543410Z TestFramework (INFO): PRNG seed is: 3620541616017400228
+2025-10-29T19:10:09.544226Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/feature_settings_13
+2025-10-29T19:10:14.378480Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/feature_settings.py", line 47, in run_test
+    default_settings = {"_warning_": f"This file is automatically generated and updated by {self.config['environment']['CLIENT_NAME']}. Please do not edit this file while the node is running, as any changes might be ignored or overwritten."}
+                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_NAME'
+2025-10-29T19:10:14.431875Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:10:14.432416Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/feature_settings_13
+2025-10-29T19:10:14.432849Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/feature_settings_13/test_framework.log
+2025-10-29T19:10:14.433432Z TestFramework (ERROR): 
+2025-10-29T19:10:14.433984Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/feature_settings_13' to consolidate all logs
+2025-10-29T19:10:14.434362Z TestFramework (ERROR): 
+2025-10-29T19:10:14.434589Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/feature_settings.py", line 112, in <module>
+    SettingsTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+
+
+264/276 - rpc_help.py failed, Duration: 3 s
+
+stdout:
+2025-10-29T19:10:23.382532Z TestFramework (INFO): PRNG seed is: 3864986737890993580
+2025-10-29T19:10:23.383499Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/rpc_help_10
+2025-10-29T19:10:26.161692Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/rpc_help.py", line 52, in run_test
+    self.test_categories()
+  File "/home/d_re/bitcoin/build/test/functional/rpc_help.py", line 115, in test_categories
+    assert_equal(titles, sorted(components))
+  File "/home/d_re/bitcoin/test/functional/test_framework/util.py", line 78, in assert_equal
+    raise AssertionError("not(%s)" % " == ".join(str(arg) for arg in (thing1, thing2) + args))
+AssertionError: not(['Blockchain', 'Control', 'Mining', 'Network', 'Rawtransactions', 'Signer', 'Util', 'Wallet'] == ['Blockchain', 'Control', 'Mining', 'Network', 'Rawtransactions', 'Util', 'Wallet', 'Zmq'])
+2025-10-29T19:10:26.323274Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:10:26.323578Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/rpc_help_10
+2025-10-29T19:10:26.323728Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/rpc_help_10/test_framework.log
+2025-10-29T19:10:26.324087Z TestFramework (ERROR): 
+2025-10-29T19:10:26.324363Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/rpc_help_10' to consolidate all logs
+2025-10-29T19:10:26.324497Z TestFramework (ERROR): 
+2025-10-29T19:10:26.324605Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/rpc_help.py", line 133, in <module>
+    HelpRpcTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+[node 0] Cleaning up leftover process
+
+
+265/276 - tool_rpcauth.py failed, Duration: 0 s
+
+stdout:
+2025-10-29T19:10:26.669825Z TestFramework (INFO): PRNG seed is: 5161383334081037639
+2025-10-29T19:10:26.670715Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/tool_rpcauth_9
+2025-10-29T19:10:26.670936Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/tool_rpcauth.py", line 29, in run_test
+    self.setUp()
+  File "/home/d_re/bitcoin/build/test/functional/tool_rpcauth.py", line 25, in setUp
+    sys.path.insert(0, os.path.dirname(self.config["environment"]["RPCAUTH"]))
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'RPCAUTH'
+2025-10-29T19:10:26.723330Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:10:26.723539Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/tool_rpcauth_9
+2025-10-29T19:10:26.723627Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/tool_rpcauth_9/test_framework.log
+2025-10-29T19:10:26.723781Z TestFramework (ERROR): 
+2025-10-29T19:10:26.723926Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/tool_rpcauth_9' to consolidate all logs
+2025-10-29T19:10:26.724001Z TestFramework (ERROR): 
+2025-10-29T19:10:26.724053Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+266/276 - feature_coinstatsindex.py passed, Duration: 74 s
+267/276 - p2p_handshake.py passed, Duration: 9 s
+268/276 - feature_help.py passed, Duration: 0 s
+269/276 - p2p_handshake.py --v2transport passed, Duration: 9 s
+270/276 - feature_dirsymlinks.py passed, Duration: 9 s
+271/276 - wallet_migration.py skipped (previous releases not available or disabled)
+272/276 - feature_shutdown.py passed, Duration: 6 s
+273/276 - p2p_ibd_txrelay.py passed, Duration: 6 s
+274/276 - p2p_permissions.py passed, Duration: 79 s
+276/276 - p2p_seednode.py passed, Duration: 10 s
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/tool_rpcauth.py", line 57, in <module>
+    RpcAuthTest(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+
+
+Remaining jobs: [feature_framework_startup_failures.py, p2p_ibd_txrelay.py, p2p_permissions.py, p2p_seednode.py]
+Remaining jobs: [feature_framework_startup_failures.py, p2p_permissions.py, p2p_seednode.py]
+Remaining jobs: [feature_framework_startup_failures.py, p2p_seednode.py]
+275/276 - feature_framework_startup_failures.py failed, Duration: 10 s
+
+stdout:
+2025-10-29T19:10:36.545403Z TestFramework (INFO): PRNG seed is: 6841180314397793316
+2025-10-29T19:10:36.546427Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4
+2025-10-29T19:10:36.567937Z TestFramework (INFO): Verifying _verify_startup_failure() functionality (self-check).
+2025-10-29T19:10:36.833230Z TestFramework (INFO): Parent process is measuring node startup duration in order to obtain a reasonable timeout value for later test...
+2025-10-29T19:10:41.692363Z TestFramework (INFO): ...measured 2.5s.
+2025-10-29T19:10:41.692730Z TestFramework (INFO): Verifying inability to connect to bitcoind's RPC interface due to wrong port results in one exception containing at least one OSError.
+2025-10-29T19:10:47.062043Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 198, in main
+    self.run_test()
+  File "/home/d_re/bitcoin/build/test/functional/feature_framework_startup_failures.py", line 90, in run_test
+    self._verify_startup_failure(
+  File "/home/d_re/bitcoin/build/test/functional/feature_framework_startup_failures.py", line 66, in _verify_startup_failure
+    assert not errors, f"Child test didn't contain (only) expected errors:\n{linesep.join(errors)}\n<CHILD OUTPUT BEGIN>\n{output}\n<CHILD OUTPUT END>\n"
+           ^^^^^^^^^^
+AssertionError: Child test didn't contain (only) expected errors:
+Found 2/1 tracebacks - expecting exactly one with no knock-on exceptions.
+<CHILD OUTPUT BEGIN>
+2025-10-29T19:10:41.869377Z TestFramework (INFO): PRNG seed is: 4095114210021932633
+2025-10-29T19:10:41.870299Z TestFramework (INFO): Initializing test directory /tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4/86d994c9
+2025-10-29T19:10:46.926036Z TestFramework (ERROR): Unexpected exception
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 194, in main
+    self.setup()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 355, in setup
+    self.setup_network()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 446, in setup_network
+    self.setup_nodes()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 468, in setup_nodes
+    self.start_nodes()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 614, in start_nodes
+    node.wait_for_rpc_connection()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_node.py", line 382, in wait_for_rpc_connection
+    self._raise_assertion_error(f"Unable to connect to bitcoind after {self.rpc_timeout}s (ignored errors: {dict(suppressed_errors)!s}{'' if latest_error is None else f', latest: {latest_error[0]!r}/{latest_error[1]}'})")
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_node.py", line 225, in _raise_assertion_error
+    raise AssertionError(self._node_msg(msg))
+AssertionError: [node 0] Unable to connect to bitcoind after 5s (ignored errors: {'missing_credentials': 1, 'OSError ECONNREFUSED': 19}, latest: 'OSError ECONNREFUSED'/ConnectionRefusedError(111, 'Connection refused'))
+2025-10-29T19:10:46.978009Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:10:46.978220Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4/86d994c9
+2025-10-29T19:10:46.978328Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4/86d994c9/test_framework.log
+2025-10-29T19:10:46.978498Z TestFramework (ERROR): 
+2025-10-29T19:10:46.978678Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4/86d994c9' to consolidate all logs
+2025-10-29T19:10:46.978778Z TestFramework (ERROR): 
+2025-10-29T19:10:46.978869Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/feature_framework_startup_failures.py", line 166, in <module>
+    internal_test(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+[node 0] Cleaning up leftover process
+
+<CHILD OUTPUT END>
+
+2025-10-29T19:10:47.113526Z TestFramework (INFO): Not stopping nodes as test failed. The dangling processes will be cleaned up later.
+2025-10-29T19:10:47.113699Z TestFramework (WARNING): Not cleaning up dir /tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4
+2025-10-29T19:10:47.113768Z TestFramework (ERROR): Test failed. Test logging available at /tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4/test_framework.log
+2025-10-29T19:10:47.113891Z TestFramework (ERROR): 
+2025-10-29T19:10:47.114115Z TestFramework (ERROR): Hint: Call /home/d_re/bitcoin/test/functional/combine_logs.py '/tmp/test_runner_₿_🏃_20251029_213845/feature_framework_startup_failures_4' to consolidate all logs
+2025-10-29T19:10:47.114183Z TestFramework (ERROR): 
+2025-10-29T19:10:47.114268Z TestFramework (ERROR): If this failure happened unexpectedly or intermittently, please file a bug and provide a link or upload of the combined log.
+
+
+stderr:
+Traceback (most recent call last):
+  File "/home/d_re/bitcoin/build/test/functional/feature_framework_startup_failures.py", line 168, in <module>
+    FeatureFrameworkStartupFailures(__file__).main()
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 210, in main
+    exit_code = self.shutdown()
+                ^^^^^^^^^^^^^^^
+  File "/home/d_re/bitcoin/test/functional/test_framework/test_framework.py", line 402, in shutdown
+    self.log.error(self.config['environment']['CLIENT_BUGREPORT'])
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/configparser.py", line 1224, in __getitem__
+    raise KeyError(key)
+KeyError: 'CLIENT_BUGREPORT'
+
+
+Remaining jobs: [p2p_seednode.py]
+
+TEST                                                   | STATUS    | DURATION
+
+example_test.py                                        | ✓ Passed  | 8 s
+feature_abortnode.py                                   | ✓ Passed  | 16 s
+feature_asmap.py                                       | ✓ Passed  | 46 s
+feature_assumeutxo.py                                  | ✓ Passed  | 268 s
+feature_assumevalid.py                                 | ✓ Passed  | 16 s
+feature_bind_extra.py                                  | ✓ Passed  | 37 s
+feature_bip68_sequence.py                              | ✓ Passed  | 94 s
+feature_block.py                                       | ✓ Passed  | 245 s
+feature_blocksdir.py                                   | ✓ Passed  | 9 s
+feature_blocksxor.py                                   | ✓ Passed  | 19 s
+feature_cltv.py                                        | ✓ Passed  | 8 s
+feature_coinstatsindex.py                              | ✓ Passed  | 74 s
+feature_config_args.py                                 | ✓ Passed  | 197 s
+feature_csv_activation.py                              | ✓ Passed  | 32 s
+feature_dersig.py                                      | ✓ Passed  | 7 s
+feature_dirsymlinks.py                                 | ✓ Passed  | 9 s
+feature_discover.py                                    | ✓ Passed  | 27 s
+feature_fastprune.py                                   | ✓ Passed  | 7 s
+feature_fee_estimation.py                              | ✓ Passed  | 116 s
+feature_framework_miniwallet.py                        | ✓ Passed  | 34 s
+feature_framework_unit_tests.py                        | ✓ Passed  | 11 s
+feature_help.py                                        | ✓ Passed  | 0 s
+feature_includeconf.py                                 | ✓ Passed  | 18 s
+feature_init.py                                        | ✓ Passed  | 182 s
+feature_loadblock.py                                   | ✓ Passed  | 10 s
+feature_logging.py                                     | ✓ Passed  | 45 s
+feature_maxtipage.py                                   | ✓ Passed  | 46 s
+feature_maxuploadtarget.py                             | ✓ Passed  | 80 s
+feature_minchainwork.py                                | ✓ Passed  | 19 s
+feature_notifications.py                               | ✓ Passed  | 16 s
+feature_nulldummy.py                                   | ✓ Passed  | 10 s
+feature_port.py                                        | ✓ Passed  | 27 s
+feature_posix_fs_permissions.py                        | ✓ Passed  | 6 s
+feature_presegwit_node_upgrade.py                      | ✓ Passed  | 13 s
+feature_proxy.py                                       | ✓ Passed  | 40 s
+feature_rbf.py                                         | ✓ Passed  | 54 s
+feature_reindex.py                                     | ✓ Passed  | 87 s
+feature_reindex_init.py                                | ✓ Passed  | 14 s
+feature_reindex_readonly.py                            | ✓ Passed  | 24 s
+feature_remove_pruned_files_on_startup.py              | ✓ Passed  | 18 s
+feature_segwit.py --v1transport                        | ✓ Passed  | 28 s
+feature_segwit.py --v2transport                        | ✓ Passed  | 19 s
+feature_shutdown.py                                    | ✓ Passed  | 6 s
+feature_signet.py                                      | ✓ Passed  | 15 s
+feature_startupnotify.py                               | ✓ Passed  | 10 s
+feature_taproot.py                                     | ✓ Passed  | 207 s
+feature_uacomment.py                                   | ✓ Passed  | 10 s
+feature_utxo_set_hash.py                               | ✓ Passed  | 10 s
+feature_versionbits_warning.py                         | ✓ Passed  | 9 s
+interface_http.py                                      | ✓ Passed  | 17 s
+interface_rest.py                                      | ✓ Passed  | 13 s
+interface_rpc.py                                       | ✓ Passed  | 11 s
+mempool_accept.py                                      | ✓ Passed  | 22 s
+mempool_accept_wtxid.py                                | ✓ Passed  | 14 s
+mempool_datacarrier.py                                 | ✓ Passed  | 7 s
+mempool_dust.py                                        | ✓ Passed  | 63 s
+mempool_ephemeral_dust.py                              | ✓ Passed  | 119 s
+mempool_expiry.py                                      | ✓ Passed  | 22 s
+mempool_limit.py                                       | ✓ Passed  | 78 s
+mempool_package_limits.py                              | ✓ Passed  | 7 s
+mempool_package_onemore.py                             | ✓ Passed  | 6 s
+mempool_package_rbf.py                                 | ✓ Passed  | 28 s
+mempool_packages.py                                    | ✓ Passed  | 10 s
+mempool_persist.py                                     | ✓ Passed  | 64 s
+mempool_reorg.py                                       | ✓ Passed  | 8 s
+mempool_resurrect.py                                   | ✓ Passed  | 6 s
+mempool_sigoplimit.py                                  | ✓ Passed  | 58 s
+mempool_spend_coinbase.py                              | ✓ Passed  | 6 s
+mempool_truc.py                                        | ✓ Passed  | 61 s
+mempool_unbroadcast.py                                 | ✓ Passed  | 20 s
+mempool_updatefromblock.py                             | ✓ Passed  | 54 s
+mining_basic.py                                        | ✓ Passed  | 420 s
+mining_getblocktemplate_longpoll.py                    | ✓ Passed  | 75 s
+mining_mainnet.py                                      | ✓ Passed  | 10 s
+mining_prioritisetransaction.py                        | ✓ Passed  | 17 s
+mining_template_verification.py                        | ✓ Passed  | 6 s
+p2p_1p1c_network.py                                    | ✓ Passed  | 32 s
+p2p_add_connections.py                                 | ✓ Passed  | 15 s
+p2p_addr_relay.py                                      | ✓ Passed  | 49 s
+p2p_addrfetch.py                                       | ✓ Passed  | 8 s
+p2p_addrv2_relay.py                                    | ✓ Passed  | 5 s
+p2p_block_sync.py --v1transport                        | ✓ Passed  | 6 s
+p2p_block_sync.py --v2transport                        | ✓ Passed  | 7 s
+p2p_blockfilters.py                                    | ✓ Passed  | 21 s
+p2p_blocksonly.py                                      | ✓ Passed  | 19 s
+p2p_compactblocks.py                                   | ✓ Passed  | 28 s
+p2p_compactblocks_blocksonly.py                        | ✓ Passed  | 16 s
+p2p_compactblocks_hb.py --v1transport                  | ✓ Passed  | 20 s
+p2p_compactblocks_hb.py --v2transport                  | ✓ Passed  | 20 s
+p2p_disconnect_ban.py --v1transport                    | ✓ Passed  | 16 s
+p2p_disconnect_ban.py --v2transport                    | ✓ Passed  | 16 s
+p2p_dns_seeds.py                                       | ✓ Passed  | 73 s
+p2p_eviction.py                                        | ✓ Passed  | 9 s
+p2p_feefilter.py                                       | ✓ Passed  | 29 s
+p2p_filter.py                                          | ✓ Passed  | 8 s
+p2p_fingerprint.py                                     | ✓ Passed  | 7 s
+p2p_getaddr_caching.py                                 | ✓ Passed  | 16 s
+p2p_getdata.py                                         | ✓ Passed  | 10 s
+p2p_handshake.py                                       | ✓ Passed  | 9 s
+p2p_handshake.py --v2transport                         | ✓ Passed  | 9 s
+p2p_headers_sync_with_minchainwork.py                  | ✓ Passed  | 48 s
+p2p_i2p_ports.py                                       | ✓ Passed  | 5 s
+p2p_i2p_sessions.py                                    | ✓ Passed  | 4 s
+p2p_ibd_stalling.py --v1transport                      | ✓ Passed  | 8 s
+p2p_ibd_stalling.py --v2transport                      | ✓ Passed  | 11 s
+p2p_ibd_txrelay.py                                     | ✓ Passed  | 6 s
+p2p_initial_headers_sync.py                            | ✓ Passed  | 25 s
+p2p_invalid_block.py --v1transport                     | ✓ Passed  | 6 s
+p2p_invalid_block.py --v2transport                     | ✓ Passed  | 5 s
+p2p_invalid_locator.py                                 | ✓ Passed  | 6 s
+p2p_invalid_messages.py                                | ✓ Passed  | 30 s
+p2p_invalid_tx.py --v1transport                        | ✓ Passed  | 8 s
+p2p_invalid_tx.py --v2transport                        | ✓ Passed  | 8 s
+p2p_leak.py                                            | ✓ Passed  | 11 s
+p2p_leak_tx.py --v1transport                           | ✓ Passed  | 6 s
+p2p_leak_tx.py --v2transport                           | ✓ Passed  | 6 s
+p2p_message_capture.py                                 | ✓ Passed  | 5 s
+p2p_mutated_blocks.py                                  | ✓ Passed  | 9 s
+p2p_net_deadlock.py --v1transport                      | ✓ Passed  | 7 s
+p2p_net_deadlock.py --v2transport                      | ✓ Passed  | 6 s
+p2p_nobloomfilter_messages.py                          | ✓ Passed  | 5 s
+p2p_node_network_limited.py --v1transport              | ✓ Passed  | 30 s
+p2p_node_network_limited.py --v2transport              | ✓ Passed  | 25 s
+p2p_opportunistic_1p1c.py                              | ✓ Passed  | 115 s
+p2p_orphan_handling.py                                 | ✓ Passed  | 128 s
+p2p_outbound_eviction.py                               | ✓ Passed  | 11 s
+p2p_permissions.py                                     | ✓ Passed  | 79 s
+p2p_ping.py                                            | ✓ Passed  | 6 s
+p2p_seednode.py                                        | ✓ Passed  | 10 s
+p2p_segwit.py                                          | ✓ Passed  | 93 s
+p2p_sendheaders.py                                     | ✓ Passed  | 36 s
+p2p_sendtxrcncl.py                                     | ✓ Passed  | 33 s
+p2p_timeouts.py --v1transport                          | ✓ Passed  | 6 s
+p2p_timeouts.py --v2transport                          | ✓ Passed  | 5 s
+p2p_tx_download.py                                     | ✓ Passed  | 123 s
+p2p_tx_privacy.py                                      | ✓ Passed  | 17 s
+p2p_unrequested_blocks.py                              | ✓ Passed  | 8 s
+p2p_v2_encrypted.py                                    | ✓ Passed  | 14 s
+p2p_v2_misbehaving.py                                  | ✓ Passed  | 5 s
+p2p_v2_transport.py                                    | ✓ Passed  | 11 s
+rpc_bind.py --ipv4                                     | ✓ Passed  | 15 s
+rpc_bind.py --ipv6                                     | ✓ Passed  | 26 s
+rpc_bind.py --nonloopback                              | ✓ Passed  | 13 s
+rpc_blockchain.py --v1transport                        | ✓ Passed  | 218 s
+rpc_blockchain.py --v2transport                        | ✓ Passed  | 217 s
+rpc_createmultisig.py                                  | ✓ Passed  | 17 s
+rpc_decodescript.py                                    | ✓ Passed  | 5 s
+rpc_deprecated.py                                      | ✓ Passed  | 5 s
+rpc_deriveaddresses.py                                 | ✓ Passed  | 5 s
+rpc_dumptxoutset.py                                    | ✓ Passed  | 6 s
+rpc_estimatefee.py                                     | ✓ Passed  | 6 s
+rpc_generate.py                                        | ✓ Passed  | 12 s
+rpc_getblockfilter.py                                  | ✓ Passed  | 12 s
+rpc_getblockfrompeer.py                                | ✓ Passed  | 24 s
+rpc_getblockstats.py                                   | ✓ Passed  | 5 s
+rpc_getchaintips.py                                    | ✓ Passed  | 11 s
+rpc_getdescriptoractivity.py                           | ✓ Passed  | 9 s
+rpc_getdescriptorinfo.py                               | ✓ Passed  | 5 s
+rpc_invalid_address_message.py                         | ✓ Passed  | 6 s
+rpc_invalidateblock.py                                 | ✓ Passed  | 7 s
+rpc_mempool_info.py                                    | ✓ Passed  | 6 s
+rpc_misc.py                                            | ✓ Passed  | 14 s
+rpc_named_arguments.py                                 | ✓ Passed  | 6 s
+rpc_net.py --v1transport                               | ✓ Passed  | 40 s
+rpc_net.py --v2transport                               | ✓ Passed  | 38 s
+rpc_orphans.py                                         | ✓ Passed  | 9 s
+rpc_packages.py                                        | ✓ Passed  | 25 s
+rpc_preciousblock.py                                   | ✓ Passed  | 6 s
+rpc_psbt.py                                            | ✓ Passed  | 48 s
+rpc_rawtransaction.py                                  | ✓ Passed  | 15 s
+rpc_scanblocks.py                                      | ✓ Passed  | 8 s
+rpc_scantxoutset.py                                    | ✓ Passed  | 39 s
+rpc_setban.py --v1transport                            | ✓ Passed  | 23 s
+rpc_setban.py --v2transport                            | ✓ Passed  | 25 s
+rpc_signmessagewithprivkey.py                          | ✓ Passed  | 8 s
+rpc_signrawtransactionwithkey.py                       | ✓ Passed  | 7 s
+rpc_txoutproof.py                                      | ✓ Passed  | 10 s
+rpc_uptime.py                                          | ✓ Passed  | 5 s
+rpc_validateaddress.py                                 | ✓ Passed  | 5 s
+rpc_whitelist.py                                       | ✓ Passed  | 18 s
+tool_bitcoin.py                                        | ✓ Passed  | 0 s
+tool_utxo_to_sqlite.py                                 | ✓ Passed  | 17 s
+wallet_abandonconflict.py                              | ✓ Passed  | 37 s
+wallet_address_types.py                                | ✓ Passed  | 27 s
+wallet_anchor.py                                       | ✓ Passed  | 10 s
+wallet_assumeutxo.py                                   | ✓ Passed  | 44 s
+wallet_avoid_mixing_output_types.py                    | ✓ Passed  | 9 s
+wallet_avoidreuse.py                                   | ✓ Passed  | 27 s
+wallet_backup.py                                       | ✓ Passed  | 60 s
+wallet_balance.py                                      | ✓ Passed  | 41 s
+wallet_basic.py                                        | ✓ Passed  | 95 s
+wallet_blank.py                                        | ✓ Passed  | 10 s
+wallet_bumpfee.py                                      | ✓ Passed  | 98 s
+wallet_change_address.py                               | ✓ Passed  | 15 s
+wallet_coinbase_category.py                            | ✓ Passed  | 6 s
+wallet_conflicts.py                                    | ✓ Passed  | 66 s
+wallet_create_tx.py                                    | ✓ Passed  | 26 s
+wallet_createwallet.py                                 | ✓ Passed  | 16 s
+wallet_createwalletdescriptor.py                       | ✓ Passed  | 9 s
+wallet_crosschain.py                                   | ✓ Passed  | 12 s
+wallet_descriptor.py                                   | ✓ Passed  | 17 s
+wallet_disable.py                                      | ✓ Passed  | 4 s
+wallet_encryption.py                                   | ✓ Passed  | 10 s
+wallet_fallbackfee.py                                  | ✓ Passed  | 9 s
+wallet_fast_rescan.py                                  | ✓ Passed  | 25 s
+wallet_fundrawtransaction.py                           | ✓ Passed  | 58 s
+wallet_gethdkeys.py                                    | ✓ Passed  | 12 s
+wallet_groups.py                                       | ✓ Passed  | 24 s
+wallet_hd.py                                           | ✓ Passed  | 24 s
+wallet_importdescriptors.py                            | ✓ Passed  | 39 s
+wallet_importprunedfunds.py                            | ✓ Passed  | 9 s
+wallet_keypool.py                                      | ✓ Passed  | 10 s
+wallet_keypool_topup.py                                | ✓ Passed  | 45 s
+wallet_labels.py                                       | ✓ Passed  | 19 s
+wallet_listdescriptors.py                              | ✓ Passed  | 8 s
+wallet_listsinceblock.py                               | ✓ Passed  | 18 s
+wallet_listtransactions.py                             | ✓ Passed  | 27 s
+wallet_miniscript.py                                   | ✓ Passed  | 42 s
+wallet_miniscript_decaying_multisig_descriptor_psbt.py | ✓ Passed  | 11 s
+wallet_multisig_descriptor_psbt.py                     | ✓ Passed  | 11 s
+wallet_orphanedreward.py                               | ✓ Passed  | 14 s
+wallet_reindex.py                                      | ✓ Passed  | 18 s
+wallet_reorgsrestore.py                                | ✓ Passed  | 36 s
+wallet_rescan_unconfirmed.py                           | ✓ Passed  | 12 s
+wallet_resendwallettransactions.py                     | ✓ Passed  | 16 s
+wallet_send.py                                         | ✓ Passed  | 27 s
+wallet_sendall.py                                      | ✓ Passed  | 14 s
+wallet_sendmany.py                                     | ✓ Passed  | 6 s
+wallet_signmessagewithaddress.py                       | ✓ Passed  | 5 s
+wallet_signrawtransactionwithwallet.py                 | ✓ Passed  | 9 s
+wallet_simulaterawtx.py                                | ✓ Passed  | 8 s
+wallet_spend_unconfirmed.py                            | ✓ Passed  | 20 s
+wallet_startup.py                                      | ✓ Passed  | 22 s
+wallet_taproot.py                                      | ✓ Passed  | 130 s
+wallet_timelock.py                                     | ✓ Passed  | 6 s
+wallet_transactiontime_rescan.py                       | ✓ Passed  | 29 s
+wallet_txn_clone.py                                    | ✓ Passed  | 13 s
+wallet_txn_clone.py --mineblock                        | ✓ Passed  | 11 s
+wallet_txn_clone.py --segwit                           | ✓ Passed  | 13 s
+wallet_txn_doublespend.py                              | ✓ Passed  | 9 s
+wallet_txn_doublespend.py --mineblock                  | ✓ Passed  | 14 s
+wallet_v3_txs.py                                       | ✓ Passed  | 13 s
+feature_bind_port_discover.py                          | ○ Skipped | 0 s
+feature_bind_port_externalip.py                        | ○ Skipped | 0 s
+feature_coinstatsindex_compatibility.py                | ○ Skipped | 0 s
+feature_unsupported_utxo_db.py                         | ○ Skipped | 0 s
+interface_bitcoin_cli.py                               | ○ Skipped | 0 s
+interface_ipc.py                                       | ○ Skipped | 0 s
+interface_usdt_coinselection.py                        | ○ Skipped | 0 s
+interface_usdt_mempool.py                              | ○ Skipped | 0 s
+interface_usdt_net.py                                  | ○ Skipped | 0 s
+interface_usdt_utxocache.py                            | ○ Skipped | 0 s
+interface_usdt_validation.py                           | ○ Skipped | 0 s
+interface_zmq.py                                       | ○ Skipped | 0 s
+mempool_compatibility.py                               | ○ Skipped | 0 s
+rpc_deriveaddresses.py --usecli                        | ○ Skipped | 0 s
+rpc_signer.py                                          | ○ Skipped | 0 s
+tool_bitcoin_chainstate.py                             | ○ Skipped | 0 s
+tool_signet_miner.py                                   | ○ Skipped | 0 s
+tool_utils.py                                          | ○ Skipped | 0 s
+tool_wallet.py                                         | ○ Skipped | 0 s
+wallet_backwards_compatibility.py                      | ○ Skipped | 0 s
+wallet_createwallet.py --usecli                        | ○ Skipped | 0 s
+wallet_listreceivedby.py                               | ○ Skipped | 0 s
+wallet_migration.py                                    | ○ Skipped | 0 s
+wallet_multiwallet.py --usecli                         | ○ Skipped | 0 s
+wallet_signer.py                                       | ○ Skipped | 0 s
+feature_addrman.py                                     | ✖ Failed  | 9 s
+feature_anchors.py                                     | ✖ Failed  | 18 s
+feature_filelock.py                                    | ✖ Failed  | 2 s
+feature_framework_startup_failures.py                  | ✖ Failed  | 10 s
+feature_settings.py                                    | ✖ Failed  | 5 s
+rpc_help.py                                            | ✖ Failed  | 3 s
+rpc_users.py                                           | ✖ Failed  | 3 s
+tool_rpcauth.py                                        | ✖ Failed  | 0 s
+wallet_multiwallet.py                                  | ✖ Failed  | 63 s
+
+ALL                                                    | ✖ Failed  | 7537 s (accumulated) 
+Runtime: 1925 s
+
